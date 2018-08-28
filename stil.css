@@ -1,0 +1,19 @@
+body {
+  margin: 40px;
+}
+#omotac {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) ) ;
+}
+
+.podrucje {
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  min-height: 50px;
+  font-size: 2em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
