@@ -40,7 +40,8 @@ function popuniPodatke(podaci){
             document.getElementById("p_"+i).style.fontWeight="bold";  
             document.getElementById("p_"+i).style.textDecoration="underline";    
         }
-        document.getElementById("p_"+i).appendChild(document.createTextNode(podaci[i]));
+       // document.getElementById("p_"+i).appendChild(document.createTextNode(podaci[i]));
+       document.getElementById("p_"+i).innerHTML=podaci[i];
     }
 }
 //preuzeto s https://www.w3resource.com/javascript-exercises/javascript-array-exercise-17.php
