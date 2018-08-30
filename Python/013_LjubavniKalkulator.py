@@ -1,0 +1,6 @@
+"""
+
+Implementirati algoritam prema slici
+
+
+"""
