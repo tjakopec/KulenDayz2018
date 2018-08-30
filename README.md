@@ -27,3 +27,29 @@ Predavač: Tomislav Jakopec je veliki zaljubljenik u informacijske tehnologije o
 12. Program kao rješenje problema
 
 
+Što nakon predavanja?
+Preuzeti kod te sve upogoniti na dostupnim resursima te dopuniti/doraditi/poboljšati i postavi na javni repozitorij!
+
+Korišteni izvori
+* [Python 3.7.0 documentation]
+* [GUI Programming with Python: Labels in Tkinter]
+* [Python Tutorials]
+* [Python for beginners]
+* [Object Oriented Programming]
+* [Python - Basic Operators]
+
+
+
+
+** Sav korišten kod, kako u primjerima tako i u razvojnim alatima je besplatan i dostupan u otvorenom pristupu. Stoga je i ovaj sadržaj besplatno dostupan u otvorenom pristupu  **
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
+   [Python 3.7.0 documentation]: <https://docs.python.org/3/>
+   [GUI Programming with Python: Labels in Tkinter]: <https://www.python-course.eu/tkinter_labels.php>
+   [Python Tutorials]: <https://pythonspot.com/>
+   [Python for beginners]: <https://www.pythonforbeginners.com/>
+   [Object Oriented Programming]: <https://python.swaroopch.com/oop.html>
+   [Python - Basic Operators]: <https://www.tutorialspoint.com/python/python_basic_operators.htm>
+  
+
