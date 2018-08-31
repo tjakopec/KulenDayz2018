@@ -1,6 +1,6 @@
 'use strict';
 const brojPodrucja=16;
-var slide=0;
+var slide=-1;
 function definirajPodrucja(index){
     var mojiStilovi = document.getElementById("mojiStilovi");
     if(mojiStilovi!=undefined){
@@ -33,7 +33,7 @@ function definirajPodrucja(index){
     }
     popuniPodatke(slideovi[index]);
 }
-definirajPodrucja(0);
+//definirajPodrucja(0);
 function popuniPodatke(podaci){
     for(let i=0;i<podaci.length;i++){
         if(i===0){
