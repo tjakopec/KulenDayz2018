@@ -5,6 +5,17 @@ class Kulen:
     proizvođač=""
     organoleptičkaSvojstva=0
     fizikalnoKemijskaAnaliza=0
+    __privatno_svojstvo=""
+
+    """
+        What do you mean by "fighting the language"?
+
+        Guido: That usually means that they're trying to continue their habits that worked well with a different language.
+
+        [...] People will turn everything into a class, and turn every access into an accessor method,
+        where that is really not a wise thing to do in Python; you'll have more verbose code that is
+        harder to debug and runs a lot slower. You know the expression "You can write FORTRAN in any language?" You can write Java in any language, too.
+    """
 
 
     def __init__(self,
@@ -20,6 +31,7 @@ class Kulen:
             return 81
         else:
             return self.fizikalnoKemijskaAnaliza * self.fizikalnoKemijskaAnaliza
+    
 
 kuleni=list()
 

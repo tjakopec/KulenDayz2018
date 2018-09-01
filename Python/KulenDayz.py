@@ -41,8 +41,9 @@ def ljubav(osoba1,osoba2,log=False):
     while True:
         
         print(brojevi) if log else log
-
-        lijevo,desno=brojevi[:int(len(brojevi)/2)],brojevi[int(len(brojevi)/2):]
+        # s znakon \ prelomio u novi red
+        lijevo,desno=brojevi[:int(len(brojevi)/2)], \
+                      brojevi[int(len(brojevi)/2):]
         neparni_clan=0
         if len(lijevo)!=len(desno) and len(desno) % 2 == 0:
             neparni_clan=desno[0]

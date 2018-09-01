@@ -21,6 +21,25 @@ if x==2:
 else:
     print('Broj nije "2"')
 
+# Python nema &, samo &&
+def a():
+    print("Provjeravam AAAAAA")
+    return False
+
+def b():
+    print("Provjaravam BBBBBB")
+    return True
+
+if a() and b():
+    print("OK")
+
+
+# if in
+lista = (1,2,2,3,4,2,3,2)
+x = 4
+if x in lista:
+    print("in")
+
 
 #
 # ELIF

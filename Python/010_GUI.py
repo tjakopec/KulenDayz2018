@@ -26,7 +26,7 @@ class Prozor:
         self.labela = Label(master, textvariable=self.labela_text)
         self.labela.pack()
 
-    # EVENT funckija
+    # EVENT funckija, malo šaram imenovanjem. Detalji o imenovanju https://www.python.org/dev/peps/pep-0008/
     def btnPozdravi_click(self):
         try:
             self.labela_text.set(
